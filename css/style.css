@@ -951,6 +951,7 @@ a.link {
 }
   .sixth-container__left {
     order: 2;
+    max-width: 100%;
     
   }
   .sixth-container__right {
