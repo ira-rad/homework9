@@ -743,6 +743,9 @@ a.link {
   .section__image path {
     fill: #00adee;
   }
+  .point{
+    display: none;
+  }
 }
 
 .four-container {
@@ -1078,6 +1081,7 @@ max-width: 100%;
   width: 25px;
   height: 25px;
   margin-right: 17px;
+  cursor: pointer;
 }
 
 .links-list {
@@ -1123,6 +1127,7 @@ max-width: 100%;
   }
 
   .footer-link a {
-    margin-right: 15px;
+    margin-right: 5px;
+    font-size: 1rem;
   }
 }
