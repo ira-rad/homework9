@@ -86,7 +86,7 @@ body {
   flex-wrap: nowrap;
 
 }
-.button {
+.button{
   display: flex;
   width: 156.05px;
   justify-content: space-around;
@@ -127,6 +127,10 @@ body {
 }
 .button.button__app{
   margin-right: 35px;
+}
+
+button{
+  cursor: pointer;
 }
 @media (max-width: 720px) {
   .header__top {
@@ -565,14 +569,19 @@ a.link {
 .tell {
   position: relative;
   margin-top: 10px;
-  left: 3%;
+  left: -10%;
   top: -9%;
+}
+
+.btn-icon{
+  background: transparent;
+  border: none;
 }
 .bell{
     
     position: absolute;
     top: 2%;
-    left: 15%;
+    left: -4%;
     background: white;
     border-radius: 50%;
     width: 79px;
@@ -590,7 +599,7 @@ a.link {
     height: 46px;
     padding-top: 17px;
     padding-bottom: 16px;
-    left: 81%;
+    left: 56%;
     top: 56%;
     border-radius: 50%;
     box-shadow: 0px 3.13793px 15.6897px rgba(0, 0, 0, 0.25), 0px 2.51034px 6.27586px rgba(51, 51, 51, 0.1);
@@ -604,9 +613,9 @@ a.link {
     background: #FFFFFF;
     box-shadow: 0px 3.13793px 15.6897px rgba(0, 0, 0, 0.25), 0px 2.51034px 6.27586px rgba(51, 51, 51, 0.1);
     padding: 12px;
-    left: -18%;
+    left: -19%;
     position: absolute;
-    top: 59%;
+    top: 52%;
     margin-right: 106px;
 }
 .buy{ 
@@ -650,7 +659,7 @@ a.link {
     height: 46px;
     padding-top: 17px;
     padding-bottom: 16px;
-    left: 72%;
+    left: 66%;
     top: 56%;
     border-radius: 50%;
     box-shadow: 0px 3.13793px 15.6897px rgba(0, 0, 0, 0.25), 0px 2.51034px 6.27586px rgba(51, 51, 51, 0.1);
