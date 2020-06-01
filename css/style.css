@@ -95,7 +95,10 @@ body {
   cursor: pointer;
   border: none;
 }
-
+.button__text{
+  display: flex;
+  flex-direction: column;
+}
 .button__icon {
   width: 25.09px;
   height: 30.78px;
@@ -109,6 +112,7 @@ body {
   margin-top: 6px;
   line-height: 12px;
   color: #ffffff;
+ 
 }
 
 .button__title {
